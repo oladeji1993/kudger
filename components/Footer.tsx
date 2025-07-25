@@ -26,7 +26,7 @@ export default function Footer() {
         {/* Logo & tagline */}
         <div>
           <div className="font-pacifico text-2xl text-white mb-2">Kudger</div>
-          <div className="text-sm text-gray-300 mb-4">Empowering Nigeria's rural communities with offline-first digital payments.</div>
+          <div className="text-sm text-gray-300 mb-4">Empowering Nigeria&#39;s rural communities with offline-first digital payments.</div>
           <div className="flex gap-2 mt-2">
             <a href="#" className="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center hover:bg-green-700 transition">
               <svg width="18" height="18" fill="none" viewBox="0 0 18 18"><path d="M9 2.25c-3.72 0-6.75 3.03-6.75 6.75 0 3.15 2.18 5.77 5.03 6.51v-4.6H5.69V8.25h1.59V7.13c0-1.57.94-2.44 2.37-2.44.69 0 1.41.12 1.41.12v1.55h-.8c-.79 0-1.04.49-1.04 1v1.19h1.77l-.28 1.41H9.22v4.6c2.85-.74 5.03-3.36 5.03-6.51 0-3.72-3.03-6.75-6.75-6.75z" fill="#fff"/></svg>

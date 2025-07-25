@@ -27,9 +27,9 @@ export default function WhoItsFor() {
   return (
     <section className="w-full bg-gradient-to-b from-[#fafaf6] to-[#e6f6f1] py-16 px-2 md:px-0 flex justify-center items-center">
       <div className="max-w-7xl mx-auto w-full flex flex-col items-center">
-        <h2 className="text-3xl md:text-4xl font-bold mb-2 text-center">Who It's For</h2>
+        <h2 className="text-3xl md:text-4xl font-bold mb-2 text-center">Who It&#39;s For</h2>
         <p className="text-gray-600 text-base md:text-lg mb-12 text-center max-w-2xl">
-          Kudger serves everyone in Nigeria's rural communities
+          Kudger serves everyone in Nigeria&#39;s rural communities
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 w-full">
           {groups.map((group, idx) => (

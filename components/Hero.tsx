@@ -12,7 +12,7 @@ export default function Hero() {
                         eNaira—<span className="text-green-600">No<br />Smartphone or<br />Internet Needed</span>
                     </h1>
                     <p className="text-lg md:text-2xl text-gray-700 mb-10 max-w-xl">
-                        Empowering Nigeria's rural and unbanked communities with NFC payment technology.
+                        Empowering Nigeria&#39;s rural and unbanked communities with NFC payment technology.
                     </p>
                     <div className="flex gap-6 flex-wrap">
                         <Link href="#how-it-works" className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-full text-lg font-semibold shadow transition">
