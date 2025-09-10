@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import Image from "next/image";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -10,23 +11,26 @@ export default function Navbar() {
   const handleNavClick = () => setMenuOpen(false);
 
   return (
-    <div className="fixed top-0 left-0 w-full z-50 bg-white shadow-sm">
-      <nav className="border-b border-gray-200 w-full">
-        <div className="max-w-7xl mx-auto w-full flex items-center justify-between px-4 sm:px-8 py-2">
+    <div className="fixed top-0 left-0 w-full z-50 bg-white border-b border-gray-200">
+      <nav className="w-full max-w-7xl mx-auto">
+        <div className="mx-auto w-full flex items-center justify-between pt-4 pb-4">
           {/* Logo */}
-          <div className="flex items-center">
-            <span className="font-pacifico text-green-700 text-2xl select-none">Kudger</span>
+          <div className="flex items-center gap-2 select-none">
+            {/* Placeholder SVG for green logo icon */}
+            <Image src="/k-logo.svg" alt="Kudger Logo" width={150} height={150} />
+            {/* <span className="font-extrabold text-2xl text-[#122027] tracking-tight">kudger</span> */}
           </div>
-          {/* Nav Links (desktop) */}
-          <div className="hidden md:flex gap-6 text-gray-700 text-sm font-medium">
-            <Link href="#how-it-works" className="hover:text-green-700 transition">How It Works</Link>
-            <Link href="#why-choose-kudger" className="hover:text-green-700 transition">Benefits</Link>
-            <Link href="#partners" className="hover:text-green-700 transition">Partners</Link>
-            <Link href="#contact" className="hover:text-green-700 transition">Contact</Link>
-          </div>
-          {/* CTA Button (desktop) */}
-          <div className="flex items-center">
-            <Link href="#find-agent" className="bg-green-600 hover:bg-green-700 text-white px-5 py-1.5 rounded-full text-sm font-medium transition hidden sm:inline-block">Find Agent</Link>
+          <div className="flex items-center gap-4">
+            {/* Nav Links (desktop) */}
+            <div className="hidden md:flex gap-8 text-[#122027] text-base font-semibold items-center">
+              <Link href="#about" className="hover:text-[#12D18E] transition">About Us</Link>
+              <Link href="#faq" className="hover:text-[#12D18E] transition">FAQ</Link>
+              <Link href="#contact" className="hover:text-[#12D18E] transition">Contact Us</Link>
+            </div>
+            {/* CTA Button (desktop) */}
+            <div className="flex items-center">
+              <Link href="#get-started" className="hidden sm:inline-block bg-[#0A2B32] hover:bg-[#14505F] text-white px-8 py-2 rounded-xl text-base font-semibold transition shadow-md" style={{ minWidth: '170px', textAlign: 'center' }}>Get Started</Link>
+            </div>
           </div>
           {/* Mobile Hamburger */}
           <div className="md:hidden">
@@ -49,14 +53,13 @@ export default function Navbar() {
         {menuOpen && (
           <div className="md:hidden fixed inset-0 z-40 bg-black bg-opacity-30" onClick={() => setMenuOpen(false)}>
             <div
-              className="absolute top-0 right-0 w-3/4 max-w-xs h-full bg-white shadow-lg flex flex-col gap-6 pt-20 px-6 text-gray-700 text-base font-medium"
+              className="absolute top-0 right-0 w-3/4 max-w-xs h-full bg-white shadow-lg flex flex-col gap-6 pt-20 px-6 text-[#122027] text-lg font-semibold"
               onClick={e => e.stopPropagation()}
             >
-              <Link href="#how-it-works" className="hover:text-green-700 transition" onClick={handleNavClick}>How It Works</Link>
-              <Link href="#why-choose-kudger" className="hover:text-green-700 transition" onClick={handleNavClick}>Benefits</Link>
-              <Link href="#partners" className="hover:text-green-700 transition" onClick={handleNavClick}>Partners</Link>
-              <Link href="#contact" className="hover:text-green-700 transition" onClick={handleNavClick}>Contact</Link>
-              <Link href="#find-agent" className="bg-green-600 hover:bg-green-700 text-white px-5 py-2 rounded-full text-base font-medium transition mt-2 text-center" onClick={handleNavClick}>Find Agent</Link>
+              <Link href="#about" className="hover:text-[#12D18E] transition" onClick={handleNavClick}>About Us</Link>
+              <Link href="#faq" className="hover:text-[#12D18E] transition" onClick={handleNavClick}>FAQ</Link>
+              <Link href="#contact" className="hover:text-[#12D18E] transition" onClick={handleNavClick}>Contact Us</Link>
+              <Link href="#get-started" className="bg-[#10343F] hover:bg-[#14505F] text-white px-8 py-2 rounded-xl text-lg font-semibold transition mt-2 text-center shadow-md" onClick={handleNavClick}>Get Started</Link>
             </div>
           </div>
         )}
