@@ -82,7 +82,7 @@ export default function WhyChooseKudger() {
       {/* Badge */}
       <span className="inline-block bg-[#16A34A] text-white rounded-full px-6  py-1 text-sm font-semibold mb-6 shadow">Why choose Kudger?</span>
       {/* Heading */}
-      <h2 className="text-4xl md:text-5xl font-bold mb-6 text-left leading-tight text-white">Built for Nigeria's unique<br />needs and challenges</h2>
+      <h2 className="text-4xl md:text-5xl font-bold mb-6 text-left leading-tight text-white">Built for Nigeria&apos;s unique<br />needs and challenges</h2>
       {/* Features Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-10 gap-y-8 w-full">
         {/* Feature 1 */}

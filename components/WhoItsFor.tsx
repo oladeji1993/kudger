@@ -1,28 +1,5 @@
 import Image from "next/image";
 
-const groups = [
-  {
-    title: "Farmers",
-    desc: "Sell crops and buy supplies without cash worries",
-    img: "/whoitsfor-img.png",
-  },
-  {
-    title: "Small Shop Owners",
-    desc: "Accept payments easily without expensive equipment",
-    img: "/whoitsfor-img.png",
-  },
-  {
-    title: "Artisans",
-    desc: "Get paid for crafts and services instantly",
-    img: "/whoitsfor-img.png",
-  },
-  {
-    title: "NGO/Agents",
-    desc: "Help communities access digital payments",
-    img: "/whoitsfor-img.png",
-  },
-];
-
 export default function WhoItsFor() {
   return (
     <section className="w-full bg-gradient-to-b from-[#fafaf6] to-[#e6f6f1] py-16 px-2 md:px-0 flex justify-center items-center">

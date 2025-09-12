@@ -9,7 +9,7 @@ export default function WhoCanUseIt() {
                 <span className="inline-block bg-[#16A34A] text-white rounded-full px-6 py-1 text-sm font-semibold mb-4 shadow">★ For Businesses, Banks, and Partners</span>
                 {/* Heading */}
                 <h2 className="text-4xl md:text-5xl font-bold mb-8 text-left leading-tight text-[#23272F]">
-                    Kudger isn't just for individuals — it's<br />a smart solution for institutions.
+                    Kudger isn&apos;t just for individuals — it&apos;s<br />a smart solution for institutions.
                 </h2>
                 {/* Cards Row */}
                 <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
@@ -35,7 +35,7 @@ export default function WhoCanUseIt() {
                             <div className="absolute inset-0 bg-white opacity-50 pointer-events-none z-0"></div>
                             <div className="relative z-10">
                                 <h3 className="font-bold text-lg text-[#23272F] mb-1">Banks & Fintechs</h3>
-                                <p className="text-[#23272F] text-base leading-snug">Integrate with Kudger APIs to expand your reach into offline and underserved markets.</p>
+                                <p className="text-[#23272F] text-base leading-snug">Integrate with Kudger&apos;s APIs to expand your reach into offline and underserved markets.</p>
                             </div>
                         </div>
                     </div>

@@ -19,7 +19,7 @@ export default function Compliance() {
                     <span className="inline-block bg-[#19C37D] text-[#07272A] text-sm font-semibold rounded-full px-4 py-1 mb-4">Trusted. Compliant. Secure.</span>
                     {/* Headline */}
                     <h2 className="text-3xl md:text-5xl font-bold mb-4 text-center md:text-left leading-tight">
-                        Kudger fully supports the Central Bank of Nigeria's (CBN) vision for the eNaira.
+                        Kudger fully supports the Central Bank of Nigeria&apos;s (CBN) vision for the eNaira.
                     </h2>
                     {/* Checklist */}
                     <ul className="mb-8 space-y-2 w-full">

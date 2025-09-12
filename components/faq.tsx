@@ -1,6 +1,7 @@
 
 "use client";
 import { useState } from "react";
+import Image from "next/image";
 
 const faqs = [
   {
@@ -26,7 +27,7 @@ export default function Faq() {
 
   return (
     <section id="faq" className="relative w-full py-16 px-2 md:px-0 flex flex-col items-center bg-[#F6FBFD] overflow-hidden">
-      <img src="/bg-layout.svg" alt="background layout" className="absolute inset-0 w-full h-full object-cover opacity-60 z-0 pointer-events-none select-none" />
+      <Image src="/bg-layout.svg" alt="background layout" fill className="absolute inset-0 w-full h-full object-cover opacity-60 z-0 pointer-events-none select-none" />
       <div className="relative z-10 w-full flex flex-col items-center">
         <h2 className="text-4xl md:text-5xl font-bold mb-8 text-center leading-tight text-[#23272F]">FAQ</h2>
         <div className="w-full max-w-5xl flex flex-col gap-6">
