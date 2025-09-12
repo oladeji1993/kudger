@@ -10,6 +10,9 @@ import Footer from "../components/Footer";
 import PaymentProcess from "../components/paymentProcess";
 import TechnologyBehind from "@/components/TechnologyBehind";
 import WhoCanUseIt from "@/components/WhoCanUseIt";
+import Compliance from "@/components/compliance";
+import Faq from "@/components/faq";
+import CtaSession from "@/components/ctaSession";
 
 
 
@@ -32,6 +35,12 @@ export default function Home() {
       <TechnologyBehind />
 
       <WhoCanUseIt />
+
+      <Compliance />
+
+      <Faq />
+
+      <CtaSession />
       
       {/* <Testimonials /> */}
       

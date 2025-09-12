@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function HowItWorks() {
   return (
-    <section id="how-it-works" className="relative w-full h-[729px] flex items-center justify-center overflow-hidden px-4 md:px-12">
+    <section id="about" className="relative w-full h-[729px] flex items-center justify-center overflow-hidden px-4 md:px-12">
       {/* Background image */}
       <div className="absolute inset-0 w-full h-full z-0">
         <Image
@@ -16,7 +16,7 @@ export default function HowItWorks() {
         {/* Overlay color */}
         <div className="absolute inset-0 bg-[#eaf7ed] opacity-80 mix-blend-multiply pointer-events-none select-none"></div>
       </div>
-      <div className="relative z-10 mx-auto w-full h-full max-w-screen-xl flex flex-row items-center md:justify-center gap-x-24">
+      <div className="relative z-10 mx-auto w-full h-full max-w-screen-xl flex md:flex-row flex-col items-center md:justify-center gap-x-24">
         {/* Illustration - absolutely anchored bottom left on desktop */}
         <div className="hidden md:block absolute left-0 bottom-0 h-full w-[47%] pointer-events-none select-none">
           <Image

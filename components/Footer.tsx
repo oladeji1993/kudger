@@ -26,7 +26,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10 mb-8 items-start">
         {/* Logo & tagline */}
         <div className="flex flex-col gap-5">
-          <Image src="/logo-white.svg" alt="Kudger Logo" width={120} height={36} className="mb-2" />
+          <Image src="/black_logo.svg" alt="Kudger Logo" width={120} height={36} className="mb-2" />
           <div className="text-sm text-gray-300 mb-4">Empowering Nigeria's rural communities<br />with offline-first digital payments.</div>
           <div className="flex gap-3 mt-2">
             <a href="#" className="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center hover:bg-green-700 transition">

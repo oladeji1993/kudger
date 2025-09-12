@@ -15,9 +15,12 @@ export default function TechnologyBehind() {
                         <div className="w-full p-3 flex items-center justify-center bg-[#F6FBFD] relative">
                             <Image width={370} height={370} src="/band.svg" alt="NFC Devices" className="object-contain" />
                         </div>
-                        <div className="p-6 flex-1 flex flex-col justify-start" style={{ backgroundImage: 'url(/bg-layout.svg)', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', opacity: 1 }}>
-                            <h3 className="font-bold text-lg text-[#23272F] mb-1">NFC Devices</h3>
-                            <p className="text-[#23272F] text-base leading-snug">Wristbands, cards, or stickers that hold secure, single-use tokens.</p>
+                        <div className="p-6 flex-1 flex flex-col justify-start relative overflow-hidden" style={{ backgroundImage: 'url(/bg-layout.svg)', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', opacity: 1 }}>
+                            <div className="absolute inset-0 bg-white opacity-50 pointer-events-none z-0"></div>
+                            <div className="relative z-10">
+                                <h3 className="font-bold text-lg text-[#23272F] mb-1">NFC Devices</h3>
+                                <p className="text-[#23272F] text-base leading-snug">Wristbands, cards, or stickers that hold secure, single-use tokens.</p>
+                            </div>
                         </div>
                     </div>
                     {/* Card 2 */}
@@ -25,9 +28,12 @@ export default function TechnologyBehind() {
                         <div className="w-full p-3 flex items-center justify-center bg-[#F6FBFD] relative">
                             <Image width={370} height={370} src="/merchant.svg" alt="Merchant App" className="object-contain rounded-2xl" />
                         </div>
-                        <div className="p-6 flex-1 flex flex-col justify-start" style={{ backgroundImage: 'url(/bg-layout.svg)', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', opacity: 1 }}>
-                            <h3 className="font-bold text-lg text-[#23272F] mb-1">Merchant App</h3>
-                            <p className="text-[#23272F] text-base leading-snug">A mobile app (Android-based) used to accept payments — even offline.</p>
+                        <div className="p-6 flex-1 flex flex-col justify-start relative overflow-hidden" style={{ backgroundImage: 'url(/bg-layout.svg)', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', opacity: 1 }}>
+                            <div className="absolute inset-0 bg-white opacity-50 pointer-events-none z-0"></div>
+                            <div className="relative z-10">
+                                <h3 className="font-bold text-lg text-[#23272F] mb-1">Merchant App</h3>
+                                <p className="text-[#23272F] text-base leading-snug">A mobile app (Android-based) used to accept payments — even offline.</p>
+                            </div>
                         </div>
                     </div>
                     {/* Card 3 */}
@@ -35,9 +41,12 @@ export default function TechnologyBehind() {
                         <div className="w-full p-3 flex items-center justify-center bg-[#F6FBFD] relative">
                             <Image width={370} height={370} src="/token.svg" alt="Token System" className="object-contain" />
                         </div>
-                        <div className="p-6 flex-1 flex flex-col justify-start" style={{ backgroundImage: 'url(/bg-layout.svg)', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', opacity: 1 }}>
-                            <h3 className="font-bold text-lg text-[#23272F] mb-1">Token System</h3>
-                            <p className="text-[#23272F] text-base leading-snug">Your NFC device holds encrypted tokens that are validated during each tap. Once used, they expire automatically.</p>
+                        <div className="p-6 flex-1 flex flex-col justify-start relative overflow-hidden" style={{ backgroundImage: 'url(/bg-layout.svg)', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', opacity: 1 }}>
+                            <div className="absolute inset-0 bg-white opacity-50 pointer-events-none z-0"></div>
+                            <div className="relative z-10">
+                                <h3 className="font-bold text-lg text-[#23272F] mb-1">Token System</h3>
+                                <p className="text-[#23272F] text-base leading-snug">Your NFC device holds encrypted tokens that are validated during each tap. Once used, they expire automatically.</p>
+                            </div>
                         </div>
                     </div>
                 </div>

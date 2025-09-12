@@ -75,7 +75,7 @@ const features = [
 
 export default function WhyChooseKudger() {
   return (
-    <section id="why-choose-kudger" className="w-full py-16 px-2 md:px-0 flex justify-center items-center bg-[#0B2B2C] relative overflow-hidden" style={{backgroundImage: 'url(/bg-layout.svg)', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
+    <section id="why-choose-kudger" className="w-full py-16 md:py-24 px-2 md:px-0 flex justify-center items-center bg-[#0B2B2C] relative overflow-hidden" style={{backgroundImage: 'url(/bg-layout.svg)', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
   <div className="max-w-7xl mx-auto w-full flex flex-col md:flex-row items-center justify-between gap-12 relative z-10">
     {/* Left: Text & Features */}
     <div className="basis-2/3 flex flex-col items-start min-w-0">
@@ -88,7 +88,7 @@ export default function WhyChooseKudger() {
         {/* Feature 1 */}
         <div className="flex flex-col items-start">
           <span className="inline-flex items-center justify-center w-12 h-12 mb-4">
-            <svg width="32" height="32" fill="none" viewBox="0 0 24 24"><path d="M3 12h18" stroke="#16A34A" strokeWidth="2" strokeLinecap="round"/><path d="M7 16h10" stroke="#16A34A" strokeWidth="2" strokeLinecap="round"/><path d="M9 20h6" stroke="#16A34A" strokeWidth="2" strokeLinecap="round"/></svg>
+            <Image width={20} height={20} src="/offline.svg" alt="Offline" className="object-contain" />
           </span>
           <h3 className="font-bold text-white text-lg mb-1">Works Offline</h3>
           <p className="text-[#D1FADF] text-base leading-snug">Make payments even without internet connection</p>
@@ -96,7 +96,7 @@ export default function WhyChooseKudger() {
         {/* Feature 2 */}
         <div className="flex flex-col items-start">
           <span className="inline-flex items-center justify-center w-12 h-12 mb-4">
-            <svg width="32" height="32" fill="none" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="4" fill="#16A34A"/><rect x="8" y="8" width="8" height="8" rx="2" fill="#fff"/></svg>
+            <Image width={14} height={14} src="/phone.svg" alt="Phone" className="object-contain" />
           </span>
           <h3 className="font-bold text-white text-lg mb-1">No Smartphone Needed</h3>
           <p className="text-[#D1FADF] text-base leading-snug">Use simple NFC cards and wristbands instead</p>
@@ -104,7 +104,7 @@ export default function WhyChooseKudger() {
         {/* Feature 3 */}
         <div className="flex flex-col items-start">
           <span className="inline-flex items-center justify-center w-12 h-12 mb-4">
-            <svg width="32" height="32" fill="none" viewBox="0 0 24 24"><path d="M12 4v16" stroke="#16A34A" strokeWidth="2" strokeLinecap="round"/><circle cx="12" cy="12" r="8" stroke="#16A34A" strokeWidth="2"/></svg>
+            <Image width={20} height={20} src="/low_cost.svg" alt="Safe" className="object-contain" />
           </span>
           <h3 className="font-bold text-white text-lg mb-1">Safe & Secure</h3>
           <p className="text-[#D1FADF] text-base leading-snug">Bank-level security with encrypted transactions</p>
@@ -112,7 +112,7 @@ export default function WhyChooseKudger() {
         {/* Feature 4 */}
         <div className="flex flex-col items-start">
           <span className="inline-flex items-center justify-center w-12 h-12 mb-4">
-            <svg width="32" height="32" fill="none" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="4" fill="#16A34A"/><path d="M8 12h8" stroke="#fff" strokeWidth="2" strokeLinecap="round"/></svg>
+            <Image width={20} height={20} src="/cbn.svg" alt="CBN" className="object-contain" />
           </span>
           <h3 className="font-bold text-white text-lg mb-1">CBN Compliant</h3>
           <p className="text-[#D1FADF] text-base leading-snug">Fully approved by Central Bank of Nigeria</p>
@@ -120,7 +120,7 @@ export default function WhyChooseKudger() {
         {/* Feature 5 */}
         <div className="flex flex-col items-start">
           <span className="inline-flex items-center justify-center w-12 h-12 mb-4">
-            <svg width="32" height="32" fill="none" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#16A34A"/><path d="M8 12l2 2 4-4" stroke="#fff" strokeWidth="2" strokeLinecap="round"/></svg>
+            <Image width={20} height={20} src="/community.svg" alt="Community" className="object-contain" />
           </span>
           <h3 className="font-bold text-white text-lg mb-1">Community Focused</h3>
           <p className="text-[#D1FADF] text-base leading-snug">Built specifically for rural Nigerian communities</p>
@@ -128,7 +128,7 @@ export default function WhyChooseKudger() {
         {/* Feature 6 */}
         <div className="flex flex-col items-start">
           <span className="inline-flex items-center justify-center w-12 h-12 mb-4">
-            <svg width="32" height="32" fill="none" viewBox="0 0 24 24"><ellipse cx="12" cy="16" rx="7" ry="3" fill="#16A34A" fillOpacity="0.2"/><circle cx="8.5" cy="10.5" r="2.5" fill="#16A34A"/><circle cx="15.5" cy="10.5" r="2.5" fill="#16A34A"/></svg>
+            <Image width={20} height={20} src="/low_cost.svg" alt="Low Cost" className="object-contain" />
           </span>
           <h3 className="font-bold text-white text-lg mb-1">Low-Cost for Merchant</h3>
           <p className="text-[#D1FADF] text-base leading-snug">Affordable transaction fees for small businesses</p>
