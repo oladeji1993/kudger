@@ -42,7 +42,7 @@ export default function WhoCanUseIt() {
                     {/* Card 3 */}
                     <div className="bg-white rounded-2xl shadow-sm border border-[#E3E7E8] flex flex-col overflow-hidden min-h-[320px]">
                         <div className="w-full flex items-center justify-center bg-[#F6FBFD] relative">
-                            <Image width={370} height={200} src="/ngo.svg" alt="Government & NGOs" className="object-cover rounded-xl" />
+                            <Image width={370} height={200} src="/NGO.svg" alt="Government & NGOs" className="object-cover rounded-xl" />
                         </div>
                         <div className="p-6 flex-1 flex flex-col justify-start relative overflow-hidden" style={{ backgroundImage: 'url(/bg-layout.svg)', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
                             <div className="absolute inset-0 bg-white opacity-50 pointer-events-none z-0"></div>
